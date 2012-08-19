@@ -55,6 +55,9 @@
 #content{
 	@include push(4);
 	@include column(8);
+	p{
+		font-size: ms(2);
+	}
 }
 
 #sidebar{
