@@ -55,7 +55,7 @@
 #content{
 	@include push(4);
 	@include column(8);
-	p{
+	p, blockquote {
 		font-size: ms(2);
 	}
 }
