@@ -44,10 +44,11 @@
 // @import "foundation/components/modules/reveal";
 // @import "foundation/components/modules/offcanvas";
 
+
 a{
-	color: #b7001f;
+	color: #8d0003;
 	&:hover{
-		color: #ff012d;
+		color: #cd0007;
 	}
 }
 
@@ -55,8 +56,16 @@ a{
 	@include outerRow();
 }
 
+#top-row{
+	@include innerRow();
+}
+
 #header{
-	@include column(12);
+	@include push(4);
+	@include column(8);
+	img{
+		margin-top: 1em;
+	}
 }
 
 #content{
@@ -80,6 +89,7 @@ a{
 	h3{
 		font-size: ms(1);
 		font-family: "anivers-sc";
+		margin-bottom: 0;
 	}
 	ul{
 		list-style: none;
@@ -90,4 +100,20 @@ a{
 	a{
 		font-family: "anivers-sc";
 	}
+}
+
+#bott-row{
+	@include innerRow();
+}
+
+#bott-1{
+	@include column(4);
+}
+
+#bott-2{
+	@include column(4);
+}
+
+#bott-3{
+	@include column(4);
 }
