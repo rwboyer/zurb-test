@@ -44,6 +44,13 @@
 // @import "foundation/components/modules/reveal";
 // @import "foundation/components/modules/offcanvas";
 
+a{
+	color: #b7001f;
+	&:hover{
+		color: #ff012d;
+	}
+}
+
 #container{
 	@include outerRow();
 }
@@ -62,8 +69,25 @@
 
 #sidebar{
 	@include pull(8);
-	@include column(4);
+	@include column(3);
 	img{
-		margin-top: 1em;
+		margin-top: 0.3em;
+		margin-bottom: 1em;
+	}
+	p{
+		font-weight: 600;
+	}
+	h3{
+		font-size: ms(1);
+		font-family: "anivers-sc";
+	}
+	ul{
+		list-style: none;
+		list-style-type: none;
+	}
+	li{
+	}
+	a{
+		font-family: "anivers-sc";
 	}
 }

@@ -4207,6 +4207,15 @@ p.vevent abbr {
 }
 
 /* line 47, ../sass/app.scss */
+a {
+  color: #b7001f;
+}
+/* line 49, ../sass/app.scss */
+a:hover {
+  color: #ff012d;
+}
+
+/* line 54, ../sass/app.scss */
 #container {
   width: 1000px;
   max-width: 100%;
@@ -4214,27 +4223,46 @@ p.vevent abbr {
   margin: 0 auto;
 }
 
-/* line 51, ../sass/app.scss */
+/* line 58, ../sass/app.scss */
 #header {
   width: 100%;
 }
 
-/* line 55, ../sass/app.scss */
+/* line 62, ../sass/app.scss */
 #content {
   left: 33.33333%;
   width: 66.66667%;
 }
-/* line 58, ../sass/app.scss */
+/* line 65, ../sass/app.scss */
 #content p, #content blockquote {
   font-size: 23px;
 }
 
-/* line 63, ../sass/app.scss */
+/* line 70, ../sass/app.scss */
 #sidebar {
   right: 66.66667%;
-  width: 33.33333%;
+  width: 25%;
 }
-/* line 66, ../sass/app.scss */
+/* line 73, ../sass/app.scss */
 #sidebar img {
-  margin-top: 1em;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+}
+/* line 77, ../sass/app.scss */
+#sidebar p {
+  font-weight: 600;
+}
+/* line 80, ../sass/app.scss */
+#sidebar h3 {
+  font-size: 17px;
+  font-family: "anivers-sc";
+}
+/* line 84, ../sass/app.scss */
+#sidebar ul {
+  list-style: none;
+  list-style-type: none;
+}
+/* line 90, ../sass/app.scss */
+#sidebar a {
+  font-family: "anivers-sc";
 }
