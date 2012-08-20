@@ -4234,3 +4234,7 @@ p.vevent abbr {
   right: 66.66667%;
   width: 33.33333%;
 }
+/* line 66, ../sass/app.scss */
+#sidebar img {
+  margin-top: 1em;
+}

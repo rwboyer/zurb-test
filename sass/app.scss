@@ -63,4 +63,7 @@
 #sidebar{
 	@include pull(8);
 	@include column(4);
+	img{
+		margin-top: 1em;
+	}
 }
