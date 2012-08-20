@@ -24,7 +24,11 @@
   
 	<script type="text/javascript">
 	   $(window).load(function() {
-		   $('#featured').orbit();
+		   $('#featured').orbit({
+		   		animation: 'fade',
+		   		timer: true,
+		   		captions: true,
+		   		captionAnimation: 'fade'});
 	   });
 	</script>
     <!-- IE Fix for HTML5 Tags -->
@@ -42,25 +46,22 @@
       <div id='header'>
 	      <h2>Featured Images</h2>
 		  <div id="featured">
-			  <a href="/page.html">
-				  <img src='/images/img1.jpg' />
+			  <a href="/page.html" data-caption="#htmlCaption">
+				  <img src='/images/img1.jpg' data-caption="#htmlCaption"/>
 			  </a>
-			  <a href="/page.html">
-				  <img src='/images/img2.jpg' />
+			  <a href="/page.html" data-caption="#htmlCaption">
+				  <img src='/images/img2.jpg' data-caption="htmlCaption" />
 			  </a>
-			  <a href="/page.html">
-				  <img src='/images/img3.jpg' />
+			  <a href="/page.html" data-caption="#htmlCaption">
+				  <img src='/images/img3.jpg' data-caption="#htmlCaption" />
 			  </a>
-			  <a href="/page.html">
-				  <img src='/images/img4.jpg' />
-			  </a>
-			  <a href="/page.html">
-				  <img src='/images/img5.jpg' />
-			  </a>
-			  <a href="/page.html">
-				  <img src='/images/img6.jpg' />
+				  <img src='/images/img4.jpg' data-caption="htmlCaption" />
+				  <img src='/images/img5.jpg' data-caption="#htmlCaption" />
+			  <a href="/page.html" data-caption="#htmlCaption">
+				  <img src='/images/img6.jpg' data-caption="htmlCaption" />
 			  </a>
 		  </div>
+		 <span class="orbit-caption" id="htmlCaption"><a href="/page.html"><h2>Limited Edition Now Available</h2></a></span> 
 	  </div>
 	  
       <div id='sidebar'>

@@ -54,6 +54,14 @@ a{
 	@include transition(color .5s);
 }
 
+.orbit-caption a{
+	color: #999999;
+	&:hover{
+		color: #cd0007;
+	}
+	@include transition(color .5s);
+}
+
 blockquote cite{
 	font-size: ms(2);
 }
