@@ -62,10 +62,6 @@ a{
 	@include transition(color .5s);
 }
 
-#bott-row blockquote{
-	font-size: ms(2);
-}
-
 blockquote cite{
 	font-size: ms(2);
 }
@@ -90,7 +86,7 @@ blockquote cite{
 #content{
 	@include push(4);
 	@include column(8);
-	p, blockquote, cite {
+	cite {
 		font-size: ms(2);
 	}
 }
