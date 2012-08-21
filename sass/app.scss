@@ -46,8 +46,8 @@
 
 
 a{
-	//color: #8d0003;
-	color: #444444;
+	color: #8d0003;
+	//color: #444444;
 	&:hover{
 		color: #cd0007;
 	}
@@ -92,7 +92,7 @@ blockquote cite{
 
 #sidebar{
 	@include pull(8);
-	@include column(3);
+	@include column(4);
 	img{
 		margin-top: 0.3em;
 		margin-bottom: 1em;

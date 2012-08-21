@@ -28,7 +28,6 @@
 		   		animation: 'fade',
 		   		timer: true,
 		   		captions: true,
-		   		pauseOnHover: true,
 		   		captionAnimation: 'fade'});
 	   });
 	</script>
@@ -46,24 +45,17 @@
 		  
       <div id='header'>
 	      <h2>Featured Images</h2>
-		  <div id="featured">
-			  <a href="/page.html" data-caption="#htmlCaption">
-				  <img src='/images/img1.jpg' data-caption="#htmlCaption"/>
-			  </a>
-			  <a href="/page.html" data-caption="#htmlCaption2">
-				  <img src='/images/img2.jpg' data-caption="htmlCaption" />
-			  </a>
-			  <a href="/page.html" data-caption="#htmlCaption">
-				  <img src='/images/img3.jpg' data-caption="#htmlCaption" />
-			  </a>
-				  <img src='/images/img4.jpg' data-caption="htmlCaption" />
-				  <img src='/images/img5.jpg' data-caption="#htmlCaption2" />
-			  <a href="/page.html" data-caption="#htmlCaption">
-				  <img src='/images/img6.jpg' data-caption="htmlCaption" />
-			  </a>
+		  <div class="block-grid">
+			  <ul class="block-grid" class="two-up">
+				<li><img src="/images/thumb/img1.jpg"></li>
+				<li><img src="/images/thumb/img2.jpg"></li>
+				<li><img src="/images/thumb/img3.jpg"></li>
+				<li><img src="/images/thumb/img4.jpg"></li>
+				<li><img src="/images/thumb/img5.jpg"></li>
+				<li><img src="/images/thumb/img6.jpg"></li>
+			  </ul>
 		  </div>
 		 <span class="orbit-caption" id="htmlCaption"><a href="/page.html"><h2>Limited Edition Now Available</h2></a></span> 
-		 <span class="orbit-caption" id="htmlCaption2"><a href="/page.html"><h2>New Signed Folio</h2></a></span> 
 	  </div>
 	  
       <div id='sidebar'>
