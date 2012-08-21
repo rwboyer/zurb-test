@@ -62,6 +62,10 @@ a{
 	@include transition(color .5s);
 }
 
+#bott-row blockquote{
+	font-size: ms(2);
+}
+
 blockquote cite{
 	font-size: ms(2);
 }
@@ -75,10 +79,11 @@ blockquote cite{
 }
 
 #header{
-	@include push(4);
-	@include column(8);
+	//@include push(4);
+	@include column(12,collapse);
 	img{
 		margin-top: 1em;
+		margin-bottom: 2em;
 	}
 }
 
