@@ -4274,56 +4274,60 @@ blockquote cite {
   width: 66.66667%;
 }
 /* line 89, ../sass/app.scss */
+#content p, #content blockquote {
+  font-size: 17px;
+}
+/* line 92, ../sass/app.scss */
 #content cite {
   font-size: 23px;
 }
 
-/* line 94, ../sass/app.scss */
+/* line 97, ../sass/app.scss */
 #sidebar {
   right: 66.66667%;
   width: 33.33333%;
 }
-/* line 97, ../sass/app.scss */
+/* line 100, ../sass/app.scss */
 #sidebar img {
   margin-top: 0.3em;
   margin-bottom: 1em;
 }
-/* line 101, ../sass/app.scss */
+/* line 104, ../sass/app.scss */
 #sidebar p {
   font-weight: 400;
 }
-/* line 104, ../sass/app.scss */
+/* line 107, ../sass/app.scss */
 #sidebar h3 {
   font-size: 17px;
   font-family: "anivers-sc";
   margin-bottom: 0;
 }
-/* line 109, ../sass/app.scss */
+/* line 112, ../sass/app.scss */
 #sidebar ul {
   list-style: none;
   list-style-type: none;
 }
-/* line 115, ../sass/app.scss */
+/* line 118, ../sass/app.scss */
 #sidebar a {
   font-family: "chaparral-pro-web";
 }
 
-/* line 120, ../sass/app.scss */
+/* line 123, ../sass/app.scss */
 #bott-row {
   margin: 0 -15px;
 }
 
-/* line 124, ../sass/app.scss */
+/* line 127, ../sass/app.scss */
 #bott-1 {
   width: 33.33333%;
 }
 
-/* line 128, ../sass/app.scss */
+/* line 131, ../sass/app.scss */
 #bott-2 {
   width: 33.33333%;
 }
 
-/* line 132, ../sass/app.scss */
+/* line 135, ../sass/app.scss */
 #bott-3 {
   width: 33.33333%;
 }

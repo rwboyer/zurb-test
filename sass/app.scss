@@ -86,6 +86,9 @@ blockquote cite{
 #content{
 	@include push(4);
 	@include column(8);
+	p, blockquote{
+		font-size: ms(1);
+	}
 	cite {
 		font-size: ms(2);
 	}
